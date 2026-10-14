@@ -1,0 +1,109 @@
+*{
+padding: 0px;
+margin: 0px;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+body{
+background-color: #f4f4f4;
+
+}
+
+.main{
+    width: 650px;
+    background-color: #ffffff;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+border-radius: 10px;
+margin-top: 80px !important;
+padding: 20px;
+margin: auto;
+
+}
+
+.main h1{
+    text-align: center;
+}
+
+.task-section{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.task-section input{
+flex-basis: 60%;
+padding: 10px;
+}
+
+.task-section select{
+    flex-basis: 20%;
+}
+
+
+
+
+
+.task-section button{
+   
+    background-color: #007bff;
+    color: white;
+    padding: 0px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.task-buttons{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+   
+}
+
+.task-buttons button{
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.task-list li{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+    gap: 8px;
+    color:#333;
+}
+
+.task-list li.completed{
+    text-decoration: line-through;
+   opacity: 0.6;
+   
+}
+
+.list-left span:nth-child(3){
+    background-color: #d9d9d9;
+    text-transform: capitalize;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.delbtn{
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border-radius: 5px;
+}
+
+.list-left{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
